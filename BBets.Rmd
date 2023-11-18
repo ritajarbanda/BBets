@@ -86,6 +86,20 @@ favstats(teachers)
 
 ```
 
+## Answer: First, we tried fining the fair odds with 40 teachers however we were not able to get a stable mean. So we decided increase the budget and hire 1000 teachers. The mean is kind of stable with 1000 Brownlows but there is still a small difference in the earnings. The odds is set to be 4.39.
+
+
+```{r}
+# Create a histogram
+hist(teachers, 
+     main = "teachers Histogram",
+     xlab = "teachers",
+     ylab = "Frequency",
+     col = "skyblue",
+     border = "black")
+
+```
+
 # What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
