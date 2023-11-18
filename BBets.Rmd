@@ -104,12 +104,18 @@ hist(teachers,
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
+```{r}
+
+teachers <- numeric(40)
+for (i in 1:40){
+  teachers[i]=BrLw(numClass=28)
+}
+
+favstats(teachers)   
+```
 
 
-
-
-
-
+## Answer: After trying different numbers of student, we set the numClass to 28 even though it did not get Brownlows earnings to be exactly 0 however 28 students gave us the closes values to zero.
 
 # Discussion and Conclusion
 
